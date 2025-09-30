@@ -5,7 +5,7 @@ namespace Tyuiu.AtakishievRS.Sprint1.Task2.V9.Lib
     {
         public double CalculateVolumeCircle(int r)
         {
-            return r * r * r;
+            return (Math.Round(((r * r * r) * Math.PI * 4.0 / 3.0), 3));
         }
     }
 }
