@@ -30,7 +30,7 @@ internal class Program
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************");
 
-        double volume = ds.CalculateVolumeCircle(r) * Math.PI * 4 / 3;
+        double volume = ds.CalculateVolumeCircle(r) * Math.PI * 4.0 / 3.0;
 
         Console.WriteLine("Объём шара радиусом r равен = " + Math.Round(volume, 3));
 
